@@ -56,4 +56,4 @@ Mod = mod(B)
 if Mod.is_integer():
     print(str(abs(dot(B, A))) + "/" + str(Mod))
 else:
-    print(str(abs(dot(B, A))) + "/√" + str(int(Mod**2)))
+    print(str(abs(dot(B, A))) + "/√" + str(round(Mod**2)))
